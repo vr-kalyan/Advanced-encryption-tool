@@ -1,0 +1,7 @@
+2025-09-04 15:16:53 INFO | Action='ENCRYPT', File='test.txt', Algorithm='AES-192', Status='SUCCESS'
+2025-09-04 15:17:14 INFO | Action='DECRYPT', File='test.txt.enc', Algorithm='AES-192', Status='SUCCESS'
+2025-09-04 15:18:04 ERROR | Action='DECRYPT', File='test.txt.enc', Algorithm='AES-192', Status='FAILURE', Reason=[Errno 2] No such file or directory: 'C:/Temp/testing_folder/test.txt.enc'
+2025-09-04 15:18:25 INFO | Action='ENCRYPT', File='test.txt', Algorithm='AES-128', Status='SUCCESS'
+2025-09-04 15:18:39 ERROR | Action='DECRYPT', File='test.txt.enc', Algorithm='AES-128', Status='FAILURE', Reason=incorrect password or corrupted file
+2025-09-04 15:18:48 INFO | Action='DECRYPT', File='test.txt.enc', Algorithm='AES-256', Status='SUCCESS'2025-09-04 15:31:43 INFO | Action='ENCRYPT', File='test.txt', Algorithm='AES-128', Status='SUCCESS'
+2025-09-04 15:31:58 INFO | Action='DECRYPT', File='test.txt.enc', Algorithm='AES-128', Status='SUCCESS'
